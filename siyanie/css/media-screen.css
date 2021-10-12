@@ -1,0 +1,88 @@
+@media (min-width:150px) and (max-width:1150px) {
+    .main__left {
+      display:none;
+    }
+  
+    .main__right {
+    transition: 1s;
+      width:100%;
+    }
+    
+    .slide {
+        transition: 1s;
+        margin-left:0;
+    }    
+
+    .first__slide--title {
+        transition:1s;
+        width:60%;
+        height:auto;
+        font-size:25px;
+        line-height: 40px;
+        margin:0 auto;
+        
+    }
+    .first__slide--title span {
+        transition: 1s;
+        font-size: 17px;
+    }
+
+    .about_button {
+        transition: 1s;
+        font-size: 15px;
+        width:155px;
+        margin-left:20%;
+    }
+
+    .about_button .fa-arrow-right {
+        transition: 1s;
+        padding-left:30px;
+    }
+
+    .mainburger {
+        display:block;
+
+    }
+
+
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        width: 60%;
+        right: 50%;
+    }
+
+    .modal__subtitle {
+            font-size: 12px;
+            padding: 21px 0 0 30px;
+            font-family: 'Noto Sans';
+    }
+
+    .modal__img {
+        display:none;
+    }
+
+    .modal__text {
+        width: 100%;
+    }
+
+    .modal__label {
+        font-size: 12px;
+        line-height: 10px;
+    }
+
+    .button_submit {
+        width:175px;
+    }
+
+    .feed-form_mt25 {
+        padding:0 30px;
+
+    }
+  }
+
+
+
+  @media (min-width:1151px) and (max-width:2500px){
+      .bmenu {
+          display: none;
+      }
+  }

@@ -1,0 +1,172 @@
+.mainburger{
+  display:none;
+  position:absolute;
+  z-index: 100;
+  top:0;
+}
+
+
+.bmenu {
+/*   height: 100%;
+  width: 0;
+  position: relative;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  visibility:hidden;
+  transition: 1s; */
+  height: 100%;
+  width: 0;
+  position: relative;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #eceae6;;
+  
+ 
+  overflow-x: hidden;
+  transition: 1s;
+
+}
+
+
+
+.bmenu-content {
+  position: relative;
+  top: 13%;
+  width: 100%;
+  /* margin-top: 30px; */
+}
+
+.bmenu a {
+  padding-left: 5px;
+  text-decoration: none;
+  font-size: 11px;
+  
+  display: block;
+  transition: 1s;
+  font-size: 13px;
+  line-height: 43px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #6a5346;
+}
+
+.bmenu a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.bmenu .closebtn {
+  position: absolute;
+  top: 0;
+  z-index:999999;
+  right: 10%;
+  font-size: 44px;
+}
+
+
+
+
+/*  */
+
+
+
+
+.bmenu__about {
+  display:flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.bmenu__about--title {
+  
+  
+  color: #aaa9a9;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #4a4a4a;
+}
+
+.bmenu__about--navigation {
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  
+  margin-bottom: 30px;
+}
+
+ul a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #f7f7f7bb;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.bmenu__menu--nav::after {
+  position:absolute;
+  display:block;
+  content: "";
+  border-bottom:1px solid #686464;
+  width:100%;
+  left:0;
+  opacity: 0.58;
+
+}
+
+
+li:hover, li:focus {
+  color: #f1f1f1;
+}
+
+/*  */
+
+.bmenu__about--us {
+ 
+  margin-bottom: 27px;
+}
+
+a.bmenu__about--item {
+  padding-bottom: 3px;
+}
+
+
+.bmenu__about--inner {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 300;
+  color: #bdbdbd;
+}
+
+/*  */
+
+
+
+
+
+.bmenu__consultation--inner {
+  margin-left: 5px;
+  font-size: 14px;
+  line-height: 12px;
+  text-transform: none;
+  color: #c57c40;
+  text-decoration: none;
+  outline: none; 
+  border: 0;
+  background: transparent;
+  padding-top:4px;
+}
+
+
+

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/burger.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-screen.css">
+</head>
+<body>
+
+
+    <section class="main">
+        <!--  -->
+        <div id="myNav" class="bmenu">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="bmenu-content">
+                <div class="bmenu__about">
+                    <div class="bmenu__about--title">основное меню сайта</div>
+                    <div class="bmenu__about--navigation" >
+                        <div id="bmenu__about_navigation--menu">
+                            <ul id="bmenu__about--box">
+                                <a href="#" class="bmenu__menu--nav">
+                                    <li>Каталог Товаров</li>
+                                </a>
+                                <a href="#" class="bmenu__menu--nav">
+                                    <li>Новости и акции</li>
+                                </a>
+                                <a href="#" class="bmenu__menu--nav">
+                                    <li>Наши услуги</li>
+                                </a>
+                                <a href="#" class="bmenu__menu--nav">
+                                    <li>Портфолио</li>
+                                </a>
+                                <a href="#" class="bmenu__menu--nav">
+                                    <li>Блог</li>
+                                </a>
+                                <a href="#" class="bmenu__menu--nav"><li>Контакты</li> </a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bmenu__about--us">
+                        <ul class="bmenu__about--inner">
+                            <a href="#" class="bmenu__about--item">
+                                <li>О компании</li>
+                            </a>
+                            <a href="#" class="bmenu__about--item">
+                                <li>Отзывы о нас </li>
+                            </a>
+                            <a href="#" class="bmenu__about--item">
+                                <li>Доставка и оплата</li>
+                            </a>
+                            <a href="#" class="bmenu__about--item">
+                                <li>Дизайнеры</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="bmenu_consultation">
+                        
+                        <button data-modal="consultation" class="button bmenu__consultation--inner">Заказать Звонок</button> 
+                    </div>
+                </div>
+            </div>
+          </div>
+        <!--  -->
+        <div class="main__left">
+            <div class="about">
+                <div class="about__logo">
+                    <a href="">
+                        <img src="img/icons/main_icon.png" alt="">
+                    </a>
+                </div>
+                <div class="about__title">Интернет-магазин отделочных материалов и дизайна.</div>
+                <div class="about__navigation" >
+                    <div id="about__navigation--menu">
+                        <ul id="about__box">
+                            <a href="#" class="menu--nav">
+                                <li>Каталог Товаров</li>
+                            </a>
+                            <a href="#" class="menu--nav">
+                                <li>Новости и акции</li>
+                            </a>
+                            <a href="#" class="menu--nav">
+                                <li>Наши услуги</li>
+                            </a>
+                            <a href="#" class="menu--nav">
+                                <li>Портфолио</li>
+                            </a>
+                            <a href="#" class="menu--nav">
+                                <li>Блог</li>
+                            </a>
+                            <a href="#" class="menu--nav"><li>Контакты</li> </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about__us">
+                    <ul class="about__inner">
+                        <a href="#" class="about__item">
+                            <li>О компании</li>
+                        </a>
+                        <a href="#" class="about__item">
+                            <li>Отзывы о нас </li>
+                        </a>
+                        <a href="#" class="about__item">
+                            <li>Доставка и оплата</li>
+                        </a>
+                        <a href="#" class="about__item">
+                            <li>Дизайнеры</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="consultation">
+                    <div class="consultation__phone">+7 (4822) 648-080</div>
+                    <button data-modal="consultation" class="button consultation__inner">Заказать Звонок</button> 
+                </div>
+            </div>
+        </div>
+        <div class="main__right" id="main__right">
+
+            <!-- slider -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-slide--bg1">
+                        <div class="slide">
+                            <div class="first__slide--title">
+                                Декоративные покрытия <br>
+                                <span>
+                                    от лучших производителей
+                                </span>
+                            </div>
+                            <button type="button" class="about_button">
+                                    Подробнее <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide--bg2"> </div>
+                    <div class="swiper-slide swiper-slide--bg3"> </div>
+                    <div class="swiper-slide swiper-slide--bg4"> </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+
+       
+        <!--  -->
+    </section>
+
+    <div class="overlay">
+        <div class="modal" id="consultation">
+            <div class="modal__img">
+                <img src="img/bg/modal_img.png" alt="">
+            </div>
+            <div class="modal__text">
+                <div class="modal__close">&times;</div>
+                <div class="modal__subtitle">Обратная связь</div>
+                <form class="feed-form feed-form_mt25" action="#">
+                <label for="email" class="modal__label"> E-mail <span>*</span> </label>
+                    <input name="email" required type="email" id="email"> 
+                
+                <label for="phone" class="modal__label">Телефон <span>*</span></label>
+                    <input name="phone" required id="phone">
+                
+                <label for="text" class="modal__label"> Сообщение</label>  
+                    <textarea name="name" required  id="text" cols="30" rows="7" resize="none" ></textarea>
+                    
+                <div class="modal__button">
+                    <button class="button button_submit">Отправить</button>
+                </div>
+            </div>
+
+                
+            </form>
+        </div>
+        <div class="modal modal_mini" id="thanks">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle " id="modal__subtitle--wrapper">Спасибо за вашу заявку!</div>
+            <div class="modal__descr" id="modal__descr">Наш менеджер свяжется с вами 
+                в ближайшее время!</div>
+        </div>
+    </div>
+    
+
+    <!-- burger -->
+ 
+      
+      <span class="mainburger" id="mainburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+ <!-- burger -->
+
+    
+ <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+ <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+ <script src="js/jquery.validate.min.js"></script>
+ <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/burger.js"></script>
+	<script src="js/modal.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+</html>
+
+
